@@ -1,0 +1,286 @@
+html,
+body {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+body {
+    margin: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Raleway", sans-serif
+}
+
+.lg {
+    color: #000 !important;
+    background-color: #f1f1f1 !important;
+    line-height: 1.5;
+}
+
+.content {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    padding-top: 32px !important;
+    padding-bottom: 32px !important;
+    text-align: center;
+}
+
+.container {
+    padding: 0.01em 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.tag {
+    background-color: #000;
+    color: #fff;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+@media (min-width: 993px) {
+    .row {
+        flex-wrap: nowrap;
+    }
+
+    .left {
+        width: 66.66666%;
+    }
+
+    .right {
+        width: 33.33333%;
+    }
+}
+
+.right {
+    width: 100;
+}
+
+.l-card {
+    color: #000 !important;
+    background-color: #fff !important;
+    margin: 16px !important;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+
+img {
+    width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+.this-opacity {
+    opacity: 0.6;
+}
+
+@media (min-width: 601px) {
+
+    .card-footer-left {
+        width: 66.66666%;
+    }
+
+    .card-footer-right {
+        width: 33.33333%;
+    }
+}
+
+.card-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    padding: 12px 24px !important;
+    border: 1px solid #ccc !important;
+    user-select: none;
+    vertical-align: middle;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    margin: 0;
+    color: #000 !important;
+    background-color: #fff !important;
+    font: inherit;
+}
+
+.btn:hover {
+    color: #000 !important;
+    background-color: #ccc !important;
+}
+
+.tag,
+.circle-tag {
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+
+.comments {
+    float: right;
+    padding: 12px 24px !important;
+}
+
+@media (max-width: 600px) {
+    .hide {
+        display: none !important;
+    }
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+.circle-tag {
+    border-radius: 50%;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.r-card {
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.this-padding {
+    padding: 8px 16px !important;
+}
+
+.this-ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width:992px) and (min-width:601px) {
+    .md-hide {
+        display: none !important
+    }
+}
+
+.padding-16 {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+}
+
+.this-ul li {
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+.img-sm {
+    width: 50px;
+    float: left !important;
+    margin-right: 16px !important;
+}
+
+.large {
+    font-size: 18px !important;
+}
+
+.margin-btm {
+    margin-bottom: 16px !important;
+}
+
+.font-sm {
+    font-size: 12px !important;
+}
+
+.this-white {
+    color: #000 !important;
+    background-color: #fff !important;
+}
+
+footer {
+    color: #fff !important;
+    background-color: #616161 !important;
+    padding-top: 32px !important;
+    padding-bottom: 32px !important;
+    margin-top: 16px !important;
+}
+
+.btn-prev {
+    color: #fff !important;
+    background-color: #000 !important;
+    padding: 12px 24px !important;
+    cursor: not-allowed;
+    opacity: 0.3;
+    border: none;
+    vertical-align: middle;
+    overflow: hidden;
+    text-align: center;
+    white-space: nowrap;
+    margin: 0;
+    font: inherit;
+    margin-right: 4px;
+}
+
+.btn-next {
+    color: #fff !important;
+    background-color: #000 !important;
+    padding: 12px 24px !important;
+    cursor: pointer;
+    border: none;
+    vertical-align: middle;
+    overflow: hidden;
+    text-align: center;
+    white-space: nowrap;
+    margin: 0;
+    font: inherit;
+}
+
+a {
+    color: inherit;
+    background-color: transparent;
+}
+
+.this-ul li:last-child {
+    border-bottom: none;
+}
